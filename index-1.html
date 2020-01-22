@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function validar(){ // bloque de codigos que solo se ejecutara si se le menciona
+            var email = document.getElementById("email").value;// pides que te muestre el email
+            var pwd = document.getElementById("micontrasenya").value;// pides que te muestre la password
+            if (email=="x@gmail.com" && pwd=="patata"){ //condicional para que ocurra sucesos programdos
+                window.location.href="cv.html";
+            } else {
+                alert("TU MUERES");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="" ><!--creacion de formulario-->
+        <input type="email" name="" id="email" placeholder="Correo electronico o Usuario"> <!--crea marco para introducir el email-->
+        <input type="password" name="" id="micontrasenya" placeholder="Contraseña"><!-- crea marco para introducir password-->
+        <input type="button" value="Validar" onclick="validar()"><!--crear boton para enviar registro-->
+    </form>
+</body>
+</html>         
