@@ -1,0 +1,31 @@
+/*
+selector universal (todos) *
+selector de tipo (div, h1, input, h2, span, ...)
+selector de clase (.nombredeclase)
+selector de indentificador (#id) colorear parte especifica 
+*/
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"); /*dar estilo a las letras de mi pagina web*/
+
+* { /*selector de color generico*/
+    margin: 0px;/*ajustar margenes*/
+    font-family: 'Permanent Marker', cursive; /*especifica la fuente para un elemento*/
+}
+
+/*body{
+    background-image: url("../image/starwars.jpg"); /*introducir imagen en el fondo de mi pagina
+}*/
+div{
+    background-color: green;/* color gris de fondo*/
+}
+
+h1 { /*da color solo a los h1*/
+    color:blue;
+}   
+
+#validar{
+    background-color: orchid;
+}
+
+.registro{ /* colorear solo lo que queremos especificar(class:"registro")*/
+    color: red
+}

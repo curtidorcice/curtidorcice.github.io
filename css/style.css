@@ -1,3 +1,49 @@
-h1 {
-    color: darkred;
+/*
+selector universal (todos) *
+selector de tipo (div, h1, input, h2, span, ...)
+selector de clase (.nombredeclase)
+selector de indentificador (#id) colorear parte especifica 
+*/
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"); /*dar estilo a las letras de mi pagina web*/
+
+* {     
+    font-family: 'Permanent Marker', cursive; /*especifica la fuente para un elemento*/
+}
+
+body{
+    background-color: black;/*rellenar de color el fondo de la pag*/
+}
+
+#registro{
+    margin: auto;
+    padding: 3%;
+    width: 20em;
+    height: 20em;
+    background-color: rgb(226, 179, 25);
+    
+}
+
+.botonazul{
+    background-color:darkseagreen;
+}
+
+#registro {/*alinea todo los parrafos dentrod el identificador registro*/
+    text-align: center; /*alinear en el centro*/
+}
+
+.registro{
+    width: 60%;
+    text-align: center;
+    padding: 1.5%;
+    margin-bottom: 1.5%;
+}
+.texto {
+    font-size: 1em; /*dar tamaño a la clase texto em(tamaño respecto al orginal*/
+}
+
+.fondo {
+    background-color: rgb(228, 228, 228);
+    border-width: 5px;
+    border-color: goldenrod;
+    
 }
