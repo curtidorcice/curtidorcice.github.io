@@ -1,0 +1,70 @@
+/*
+Selector universal (todos) *
+Selector de tipo (div, h1, input, h2, span, p, ....)
+Selector de clase ( . nombreDeClase)
+Selector de identificador ( #id )
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Bangers';
+}
+
+
+
+#Cabecera {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 0px;
+    background-color: #4267B2;
+    padding-top: 10px;
+    height: 100px;
+}
+
+#facebook {
+    float: left;
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+    width: 50%;
+    height: 90px;
+    border: 0px;
+    background-color: #4267B2;
+    color: white;
+}
+
+h1 {
+    line-height: 90px;
+}
+
+#correo {
+    float: left;
+    margin: auto;
+    text-align: left;
+    width: 9%;
+    border: 0px;
+    height: 190px;
+    background-color: #4267B2;
+    color: white;
+}
+
+h2 {
+    margin-top: 16px;
+    font-size: 0.8em;
+    line-height: 30px;
+}
+
+#pwd {
+    float: left;
+    margin: auto;
+    text-align: left;
+    width: 41%;
+    border: 0px;
+    height: 90px;
+    background-color: #4267B2;
+    color: white;
+}
+

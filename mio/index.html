@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css"><!--llama al estilo que tenemos creado en css-->
+    <title>Document</title>
+    <script>//registro de usuarios(javascript)
+        function validar(){ // bloque de codigos que solo se ejecutara si se le menciona
+            var email = document.getElementById("email").value;// pides que te muestre el email
+            var pwd = document.getElementById("micontrasenya").value;// pides que te muestre la password
+            if (email=="x@gmail.com" && pwd=="patata"){ //condicional para que ocurra sucesos programdos
+                window.location.href="cv.html";
+            } else {
+                alert("TU MUERES");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="registro"><!--identificador-->
+        <p class="texto">Login Form</p>
+        <p class="texto">Login to access your dashboard</p>
+        <form action="" method=""> <!--enviar de manera ordenada el formulario-->
+            <input class="registro fondo"  type="email" name="" id="email" placeholder="Correo electronico o Usuario"> <!--crea marco para introducir el email-->
+            <input class="registro fondo"  type="password" name="" id="micontrasenya" placeholder="Contraseña"><!-- crea marco para introducir password-->
+            <input class="botonazul registro" type="button" value="Validar" onclick="validar()"><!--crear boton para enviar registro-->
+        <p class="texto">Don´t have an account? Sign Up</p>
+    </form>
+    
+</div>
+    
+</body>
+</html>         

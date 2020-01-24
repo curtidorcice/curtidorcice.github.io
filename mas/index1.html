@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+    <script>
+        function validar() {
+            var nombre = document.getElementById("nombre").value;
+            var apellidos = document.getElementById("apellidos").value;
+            var movilcorr = document.getElementById("movilcorr").value;
+            var contraseña = document.getElementById("contraseña").value;
+            if (nombre == " ") {
+                alert("Introduzca Nombre");
+                if (apellidos == " ") {
+                    alert("Introduzca apellidos");
+                    if (movilcorr == " ") {
+                        alert("Introduzca movil o e-mail");
+                        if (contraseña == " ") {
+                            alert("Introduzca contraseña");
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="cuadroizquierda">
+       <p class="textochico"> Facebook te ayuda a comunicarte y compartir <br>
+                              con las personas que forman parte de tu vida</p>
+       <img src="./images/fb.png">
+    </div>
+
+    <div id="cuadroderecha">
+        
+        <p class="textogrande"> Registrarte</p>       
+        <p class="textochico">Es rápido y fácil.</p>
+        <form action="" method="">
+            <div id=div1>
+                <input class="ancho100 fondogris" type="nombre" name="" id="nombre" placeholder="Nombre">
+            </div>
+            <div id=div2>
+                <input class="ancho100 fondogris" type="apellidos" name="" id="apellidos" placeholder="Apellidos">
+            </div>
+            <div id=div3>
+                <input class="ancho100 fondogris" type="movilcorr" name="" id="movilcorr"
+                 placeholder="Número de móvil o correo electrónico">
+            </div>
+            <div id=div4>
+                <input class="ancho100 fondogris" type="contraseña" name="" id="contraseña" placeholder="Contraseña nueva">
+            </div>    
+        </form>
+    </div>
+</body>
+
+</html>

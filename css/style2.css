@@ -1,0 +1,49 @@
+/*
+selector universal (todos) *
+selector de tipo (div, h1, input, h2, span, ...)
+selector de clase (.nombredeclase)
+selector de indentificador (#id) colorear parte especifica 
+*/  
+
+
+
+/*body{
+    float: right;
+}*/
+#ss{
+    color: grey;
+    width: 100%;
+}
+
+h4{
+    float: left;
+    padding-left: 1em;
+    
+}
+
+#parrafo {
+    float: left;
+    width: 100%;
+    
+}
+
+/*div{
+    width: 100%;
+}*/
+
+#validar{
+    width: 100%;
+    padding-top: 3em;
+    background-color: ;
+}
+#but{
+    background-color: rgb(73, 145, 2);
+    border-color: black;
+    border: 1px
+}
+#main{
+    
+    float: right;
+    margin-right: 25em;
+    
+}
